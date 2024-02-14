@@ -1,0 +1,17 @@
+:root{
+    --navy-blue1    : #372e4e;
+    --navy-blue2    : #41365a;
+    --navy-blue3    : #453961;
+    --spring-green1 : #1eca4c;
+    --spring-green2 : #32e662;
+    --spring-green3 : #24c977; 
+    --spring-green4 : #48c24880;
+    --gray1         : #3f3f41;
+    --gray2         : #4e4368;
+    --gray3         : #c1bfbf;
+
+
+    --linear-navy-blue : linear-gradient(90deg, var(--navy-blue1), var(--navy-blue2), var(--navy-blue3),var(--navy-blue3),var(--navy-blue2),var(--navy-blue1));
+
+
+}

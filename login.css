@@ -1,0 +1,128 @@
+body::before{
+    content: '';
+    z-index: -1;
+    background-image: url(b1.jpg);
+    opacity: 0.1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 21px;
+
+}
+
+.container1{
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0px rgb(192, 187, 187), -1px -1px 2px 0px rgb(240, 237, 237);
+    width: 350px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.includeBook{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 40px 0px;
+}
+
+.book{
+    display: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(51, 192, 51);
+    font-size: 50px;
+
+}
+
+.error{
+    display: none;
+    background-color: rgb(72, 194, 72, 0.5);
+    color: #3e3359;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #3e3359;
+    margin: 10px 0px;
+}
+
+.parent label{
+    margin-bottom: 10px;
+    color: #3f3f41;
+}
+
+.parent div input{
+    border: none;
+    outline: none;
+    display: block;
+    border-bottom: 2px solid rgb(51, 192, 51);
+    border-right: 2px solid rgb(51, 192, 51);
+    margin-bottom: 30px;
+    height: 25px;
+    width: 100%;
+    color: #1b1b1c;
+}
+
+
+.passdiv{
+    position: relative;
+}
+
+.show, .hide{
+    position: absolute;
+    bottom: 5px;
+    left: 330px;
+    font-size: 15px;
+    color: #463b63;
+}
+
+.continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='submit']{
+    color: azure;   
+    font-size: 20px;
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(45deg, rgb(30, 202, 76),rgb(50, 230, 98),rgb(30, 202, 76) );
+    margin-top: 10px;
+}
+
+.changeAcc{
+    font-size: 15px;
+    text-align: center;
+}
+
+a{
+    color:rgb(30, 202, 76);
+    font-size: 17px;
+    
+}
+
+
+.r{
+    background-color: #463b63;
+    height: 100px;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>login</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="login.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Patrick+Hand&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="r"></div>
+        <div class="container1">
+            <h1>Welcome Back</h1>
+            <div class="includeBook">
+                <i class="fa-solid fa-book-open-reader book"></i>
+            </div>
+            <div class="error">please enter your name</div>
+            <form name="loginform" method="POST" action="login.html">
+                <div class="parent">
+                    <div>
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email"/>
+                    </div>
+                    <div class="passdiv">
+                        <label for="password">Password </label>
+                        <input type="password" name="password" id="password"/>
+                        <i class="fa-regular fa-eye-slash hide"></i>
+                    </div>
+                </div>
+                <div class="continue">
+                    <input type="submit" name="Continue" value="Continue">
+                </div>
+                <p class="changeAcc">Don't have an account? <a href="signup.php">Singup</a></p>
+            </form>
+        </div>
+    </body>
+</html>
